@@ -22,7 +22,8 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index),
-    
+    path('Datadirisiswa', views.Datadirisiswa),
+    path('Dataorangtua', views.Dataorangtua),
     
     
 ]
